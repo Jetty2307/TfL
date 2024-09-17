@@ -16,4 +16,5 @@ Technical solution:
 The project consists of two parts: visualisation of most characteristic data related to crowding at the London Underground stations and construction of the predictive model for future expected crowding at the stations during the specific 30-minute time frame on a particular day. For both parts, the data from Transport for London (TfL) Unified API are used. Information on crowding is available upon API requests as processed historical data (crowding at each station on a specific day of the week in a specific 15-minute time interval), or as live data (current crowding at the specific station). 
 
 Visualization: historical and live data for London Underground with various types of plots, including visualization on a geographical map. Tools: Jupyter, Tableau dashboards.
+
 Predictive model: time series model (ARIMA), gradient boosting (xgboost) in Python, Tableau dashboards to evaluate the quality of the models by comparing predicted and actual data.
